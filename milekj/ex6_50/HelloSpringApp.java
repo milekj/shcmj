@@ -20,7 +20,7 @@ public class HelloSpringApp {
 		Coach prototypeCoach2 = context.getBean("myPrototypeCoach", Coach.class);
 
 		System.out.println("prototypeCoach1 == prototypeCoach2 ? " + (prototypeCoach1 == prototypeCoach2));
-		
+
 		// close the context
 		context.close();
 	}
