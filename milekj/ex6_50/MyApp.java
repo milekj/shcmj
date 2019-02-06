@@ -1,4 +1,4 @@
-package milekj.ex5_42;
+package milekj.ex6_50;
 
 public class MyApp {
 
